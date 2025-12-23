@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
+
+import { UiShared } from '@monorepo-angular/ui-shared';
+
 import { NxWelcome } from './nx-welcome';
 
 @Component({
-  imports: [NxWelcome, RouterModule],
+  imports: [NxWelcome, RouterModule, UiShared],
   selector: 'app-root',
   templateUrl: './app.html',
   styleUrl: './app.css',
