@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Course } from '@monorepo-angular20/utils-common';
+import { Course } from '@monorepo-angular/utils-common';
 
 @Component({
   selector: 'lib-shared-course-card',
